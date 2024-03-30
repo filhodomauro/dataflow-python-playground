@@ -1,4 +1,4 @@
-# dataflow-python-playground
+# Word Count
 
 ## Setup
 
@@ -18,4 +18,10 @@ pip install wheel
 ```
 ```
 pip install 'apache-beam[gcp]'
+```
+
+## Run
+
+```
+python3 wordcount.py --input=kinglear.txt --output=output
 ```
